@@ -35,8 +35,8 @@ namespace SimpleGithubUserDataFetch
             this.panel1 = new System.Windows.Forms.Panel();
             this.FetchButton = new System.Windows.Forms.Button();
             this.usernameTextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.progressBar = new System.Windows.Forms.ProgressBar();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -99,6 +99,15 @@ namespace SimpleGithubUserDataFetch
             this.usernameTextBox.Size = new System.Drawing.Size(312, 32);
             this.usernameTextBox.TabIndex = 1;
             // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(323, 8);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(155, 23);
+            this.progressBar.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
+            this.progressBar.TabIndex = 6;
+            this.progressBar.Visible = false;
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -108,15 +117,6 @@ namespace SimpleGithubUserDataFetch
             this.label2.Size = new System.Drawing.Size(20, 24);
             this.label2.TabIndex = 6;
             this.label2.Text = "*";
-            // 
-            // progressBar
-            // 
-            this.progressBar.Location = new System.Drawing.Point(323, 8);
-            this.progressBar.Name = "progressBar";
-            this.progressBar.Size = new System.Drawing.Size(155, 23);
-            this.progressBar.Style = System.Windows.Forms.ProgressBarStyle.Marquee;
-            this.progressBar.TabIndex = 6;
-            this.progressBar.Visible = false;
             // 
             // MainWindow
             // 
